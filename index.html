@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owuraku's Event Form</title>
+</head>
+<body >
+
+<h1>        
+       Owuraku's Event Registration Form
+       <hr></hr>
+</h1>      
+       <form>
+        <!-------- Attendee Name-------->
+        <label for="name" > Name: </label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+        <br><br>
+
+        <!-------- Attendee Email-------->
+        <label for="email"> Email: </label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        <br><br>
+
+        <!-------- Attendee Phone-------->
+        <label for="phone">Phone/WhatsApp:</label>
+        <input type="phone" id="phone" name="phone" placeholder="Enter your phone number " required>
+        <br><br>
+
+        <!-------- Attendee Arrival date -------->
+        <label for="arrival">Arrival Date:</label>
+        <input type="date" id="date" name="date" placeholder="Enter the date you arrived" required>
+        <br><br>
+
+        <!-------- Attendee Meal Preference -------->
+        <label for="meal">Meal Preference:</label>
+        <select id="meal" name="meal"required >
+            <option value="">Select</option>
+            <option value="Waakye"> Waakye </option>
+            <option value="Banku and Tilapia">Banku and Tilapia</option>
+            <option value="Fufu and Light Soup">Fufu and Light Soup</option>
+            <option value="jollof Rice"> Jollof Rice</option>
+            <option value="Gobe with kokoo"> Gobe with kokoo</option>
+        </select>
+        <br><br>
+        <!--------Submit-------->
+        <button type="submit">Submit</button>
+      </form>
+    
+    
+</body>
+</html>
